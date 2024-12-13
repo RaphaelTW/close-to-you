@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "row",
+    gap: 14,
   },
   title: {
     color: colors.gray[100],
