@@ -11,14 +11,14 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   title: {
-    fontFamily: fontFamily.semiBold,
     fontSize: 16,
+    fontFamily: fontFamily.semiBold,
     color: colors.gray[600],
   },
   description: {
-    fontFamily: fontFamily.regular,
     fontSize: 14,
+    fontFamily: fontFamily.regular,
     color: colors.gray[500],
     marginTop: 4,
-  }
+  },
 })

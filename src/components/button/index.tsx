@@ -32,7 +32,7 @@ function Button({ children, style, isLoading = false, ...rest }: ButtonProps) {
 }
 
 function Title({ children }: TextProps) {
-  return <Text style={styles.title}>{children}</Text>
+  return <Text style={ styles.title }>{ children }</Text>
 }
 
 type IconProps = {

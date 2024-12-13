@@ -6,10 +6,11 @@ import { Welcome } from "@/components/welcome"
 
 export default function Index() {
   return (
-    <View style={{ flex: 1, padding: 40, gap:40, }}>
+    <View style={{ flex: 1, padding: 40, gap: 40 }}>
       <Welcome />
       <Steps />
-      <Button onPress={ () => router.navigate("/home") }>
+
+      <Button onPress={() => router.navigate("/home")}>
         <Button.Title>Começar</Button.Title>
       </Button>
     </View>

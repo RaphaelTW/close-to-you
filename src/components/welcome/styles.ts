@@ -9,14 +9,14 @@ export const styles = StyleSheet.create({
     marginBottom: 28,
   },
   title: {
-    fontSize: 21,
+    fontSize: 24,
     fontFamily: fontFamily.bold,
-    color: colors.gray[600]
+    color: colors.gray[600],
   },
   subtitle: {
     fontSize: 16,
     fontFamily: fontFamily.regular,
+    color: colors.gray[500],
     marginTop: 12,
-    color: colors.gray[500]
-  }
+  },
 })
